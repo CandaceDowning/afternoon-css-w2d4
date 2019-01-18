@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+}
+body{
+    background-color: blue;
+    color: white;
+    font-family: aktiv-grotesakk, sans-serif;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    margin-left: 50px;
+    margin-right: 50px
+}
+    .midNav{
+        font-size: 11px;
+        font-weight: bold;
+        min-width: ;
+    }
+    .midNav a{
+        margin: 10px;
+    }
+
+    .rightNav{
+        display: flex; 
+        align-items: center;   
+        
+    }
+
+        .sub{
+            border-radius: 50px;
+            box-shadow: none;
+            height: 42px;
+            width: 117px;
+            background-color: transparent;
+            border: 1px solid white;
+            border-color: white;
+            color: white;
+            font-size: 11px;
+            font-weight: bold;
+        }
+        .sub:hover{
+            background-color: white;
+            color: blue;
+        }
+        .news{
+            margin-left: 10px;
+        }
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40vw;
+    margin: 20vh auto 10vh auto;
+}
+    .mainTitle{
+        font-size: 56px;
+        line-height: 70px; 
+    }
+    .mainText{
+        font-size: 16px;
+        text-align: center;
+        line-height: 34px;
+        max-width: 600px;
+       
+    }
+    .explore{
+        box-shadow: none;
+        background-color: transparent;
+        border: 1px solid white;
+        border-color: white;
+        color: white;
+        font-size: 11px;
+        font-weight: bold;
+        border-radius: 50px;
+        height: 55px;
+        width: 200px;
+        background-color: white;
+        color: blue;
+        letter-spacing: 1px
+    }
+    .explore:hover{
+        background-color: transparent;
+        border: 1.5px solid white;
+        border-color: white;
+        color: white
+    }
+  
+
+
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: flex-end;
+}
+    .vert{
+        font-size: 11px;
+        font-weight: bold;
+        transform: rotate(270deg);
+        transform-origin: bottom left;
+        letter-spacing: 2px;
+    }
+    .scroll{
+        margin-right: 80px;
+    }
+    .scroll p{
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    .social{
+    display: flex;
+    flex-direction: column;
+    }
